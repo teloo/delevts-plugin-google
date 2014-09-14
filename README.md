@@ -19,7 +19,7 @@ This plugin has been installed in [delevts](https://github.com/teloo/delevts).
     2. Select [Installed application] from [APPLICATION TYPE].
     3. Select [Other] from [INSTALLED APPLICATION TYPE].
     4. Click [Create Client ID].
-6. Display [CLIENT ID] AND [CLIENT SECRET].
+6. Displays [CLIENT ID] AND [CLIENT SECRET].
 
 ## Usage
 
