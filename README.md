@@ -18,18 +18,19 @@ This plugin has been installed in [delevts](https://github.com/teloo/delevts).
     1. Click [Create new Client ID].
     2. Select [Installed application] from [APPLICATION TYPE].
     3. Select [Other] from [INSTALLED APPLICATION TYPE].
+    4. Click [Create Client ID].
 6. Display [CLIENT ID] AND [CLIENT SECRET].
 
 ## Usage
 
 Write the config file.  
-For example...
+For example.
 
 ```json
 {
   "clientId": "<Google OAuth client id>",
   "clientSecret": "<Google OAuth client secret>",
-  "calendarId": "<Calendar Id>"
+  "calendarId": "<Calendar id>"
 }
 ```
 
@@ -51,8 +52,8 @@ Write the config file.
 {
   "clientId": "<Google OAuth client id>",
   "clientSecret": "<Google OAuth client secret>",
-  "refreshToken": "<Google OAuth refreshToken>",
-  "calendarId": "<Calendar Id>"
+  "refreshToken": "<Google OAuth refresh token>",
+  "calendarId": "<Calendar id>"
 }
 ```
 
