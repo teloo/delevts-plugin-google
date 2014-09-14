@@ -22,7 +22,7 @@ This plugin has been installed in [delevts](https://github.com/teloo/delevts).
 
 ## Usage
 
-Write the config file.
+1. Write the config file.
 
 For example...
 
@@ -34,27 +34,26 @@ For example...
 }
 ```
 
-Run this command.
+2. Run this command.
 
 ```shell
 $ delevts google /path/to/config.json
 ```
-Opens the browser.  
-Accept.
+
+3. Opens the browser.  Accept.
 
 ![oauth-accept-page.png](doc/oauth/oauth-accept-page.png)
 
-Copy the code and input it to console.
+4. Copy the code and input it to console.
 
 ![oauth-code-page.png](doc/oauth/oauth-code-page.png)
 
-Displays the refresh token.  
-Write the config file.
+5. Displays the refresh token.  Write the config file.
 
 ```json
 {
   "clientId": "<Google OAuth client id>",
-  "clientSecret": "<Google OAuth client secret>"
+  "clientSecret": "<Google OAuth client secret>",
   "refreshToken": "<Google OAuth refreshToken>",
   "calendarId": "<Calendar Id>"
 }
